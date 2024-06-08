@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background: rgb(0, 102, 167);
+    height: 40px;
+    color: white;
+    position: relative;
+}
+
+nav div {
+    float: right;
+    position: absolute;
+    right: 0%;
+}
+
+ main {
+    width: 100%;
+    min-height: 29rem;
+    display: flex;
+}
+ 
+.bg img{
+  width: 50%;
+  margin-top: -300px;
+}
+
+.left {
+    width: 50%;
+    font-family: proxima-nova, sans-serif;
+    font-size: 1.3rem;
+    padding: 3rem;
+    color: rgb(128, 128, 128);
+}
+
+.left div {
+    padding: 4px;
+}
+
+.left .in {
+    padding-top: 40px;
+    color: rgb(0, 102, 167);
+}
+    
+
+.put {
+    padding-top: 20px;
+    display: flex;
+    position: relative;
+}
+
+.put .lct{
+    position: absolute;
+    left:0.7rem;
+    margin-top: 0.5rem;
+}
+
+button{
+color: #fff;
+}
+
+.put span {
+    margin-top: 7px;
+    margin-left: -8.5rem;
+}
+
+span button {
+    height: 2.2rem;
+    width: 120px;
+    background-color: rgb(0, 171, 0);   
+    padding: 0 10px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+}
+
+span button .ict{
+    position: absolute;
+    left: 8%;
+}
+
+.left .put input {
+    padding-left: 30px;
+    width: 90%;
+    height: 3rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border: 0px;
+    border-radius: 3px;
+    background-color: rgb(246, 243, 243);
+}
+
+.logo img {
+    width: 300px;
+}
+
+.right {
+    width: 50%;
+}
+
+
+.img {
+    width: 100%;
+    height: 85%;
+}
+
+.img img {
+    width: 100%;
+    height: 85%;
+}
+
+.pic {
+    background-image: url(https://api.dominos.co.in/prod-olo-api/images/paytm_wallet_offer_on_dominos_20211124@3x.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 10rem;
+    height: 6rem;
+    margin: 6rem;
+    cursor: pointer;
+    padding: 0.31rem 1rem;
+    border: 0.7px dotted rgb(151, 151, 151);
+}
+
+.last{
+    background-color: #222e3a;
+    padding: 50px 60px;
+    width: 100%;
+    display: flex;
+}
+
+.lft{
+    width: 70%;
+}
+
+image{
+    width: 300px;
+    margin: 10px; 
+}
+
+.image img{
+width: 250px;
+}
+
+ul{
+    display: flex;
+    padding-top: 15px;
+    padding-left: -10px;
+}
+
+ul li{
+  list-style: none;
+  padding: 15px;
+ 
+}
+
+ul li a{
+ text-decoration: none;
+ color: rgb(131, 154, 177);
+ font-size: 1rem;
+ font-family:  proxima-nova, sans-serif;
+}
+
+.rght{
+    width:30%;
+    padding: 30px;
+}
+
+.imge{
+   width: 100px;
+   display: flex;
+   gap: 15px;
+}
+
+.imge img{
+    width: 100px;
+ }
+
+ .hr{
+    background-color: white;
+    border: 0.5px solid #55687a;
+ }
+
+ footer{
+    background-color: #222e3a;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .footer{
+    color: rgb(131, 154, 177);
+
+ }
